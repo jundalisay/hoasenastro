@@ -1,0 +1,51 @@
+{
+	"hero": {
+		"title": "Thăng Hoa Tâm Linh Cải Thiện Sức Khỏe",
+		"subtitle": "Hệ thống Yoga từ Ấn Độ giúp nâng cao tinh thần và sức khỏe toàn diện.",
+		"globe_title": "Yoga Hoa Sen.",
+		"main_button_text": "View our Schedules",
+		"secondary_button_text": "Check out the science"
+	},
+	"hero_animated": {
+		"secondary_button_text": "Check out the science"
+	},
+	"header": {
+		"features": "Yoga",
+		"pricing": "Pricing",
+		"blog": "Blog",
+		"contact": "Contact",
+		"primary_button_text": "Schedule",
+		"secondary_button_text": "Lien He"
+	},
+	"features": {
+		"learn_more": "Learn more",
+		"title": "Features",
+		"subtitle": "Learn Indian Tantra Yoga",
+		"description": "Yoga Hoa Sen offers tantra yoga.",
+		"astro": "Yoga promotes holistic health.",
+		"alpine": "Vegetarian diet.",
+		"tailwind": "Social Service.",
+		"localization": "Disaster Relief!",
+		"light_dark_mode": "Asanas",
+		"giscus": "Neditation",
+		"decapcms": "Fasting Camp",
+		"rss": "Devotional Songs",
+		"articlegenerator": "Yogic Treatments"
+	},
+	"faq": {
+		"title": "Domande frequenti",
+		"1": "Tantra Yoga la gi?"
+	},
+	"newsletter": {
+		"title": "Subscribe to our newsletter",
+		"subtitle": "Ricevi le notifiche per gli ultimi aggiornamenti e novità.",
+		"input_placeholder": "Inserisci la tua email",
+		"button_text": "Sottoscriviti",
+		"privacy": "Ci importa della tua privacy. Leggi la nostra",
+		"privacy_link": "Privacy Policy."
+	},
+	"blog": {
+		"prev": "Precedente",
+		"next": "Successiva"
+	}
+}

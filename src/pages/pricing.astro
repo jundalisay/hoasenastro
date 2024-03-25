@@ -1,0 +1,64 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pricing from "@components/pricing.astro";
+import Logos from "@components/logos.astro";
+import Faq from "@components/faq.astro";
+
+changeLanguage("en");
+
+const pricingData = [
+    {
+        name: "6-8pm",
+        price: "Tuesday",
+        popular: false,
+        features: ["Asanas", "Basic Meditation", "Kiirtan", "Kaoshikii", "Fasting"],
+        button: {
+            text: "Dakao District 1, HCMC",
+            link: "/contact",
+        },
+    },
+    {
+        name: "6-8pm",
+        price: {
+            monthly: "Thursday",
+            annual: "$16",
+            discount: "10%",
+            original: "$24",
+        },
+        popular: true,
+        features: ["Asanas", "Basic Meditation", "Kiirtan", "Kaoshikii", "Fasting"],
+        button: {
+            text: "Dakao District 1, HCMC",
+            link: "/contact",
+        },
+    },
+    {
+        name: "Contact Us",
+        price: "Sunday",
+        popular: false,
+        features: ["Basic Meditation", "Kiirtan", "Kaoshikii"],
+        button: {
+            text: "Dakao District 1, HCMC",
+            link: "/contact",
+        },
+    },
+];
+---
+
+<Layout title="Pricing">
+	<Container>
+		<Sectionhead>
+            <Fragment slot="title">Schedule</Fragment>
+            <Fragment slot="desc">Check out our Schedule for 2024</Fragment>
+		</Sectionhead>
+
+		<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20">
+			{pricingData.map((item) => <Pricing plan={item} />)}
+		</div>
+		<!-- <Logos /> -->
+		<Faq />
+	</Container>
+</Layout>

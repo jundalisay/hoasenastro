@@ -1,0 +1,51 @@
+{
+	"hero": {
+		"title": "Enhancing Spirituality Improving Health",
+		"subtitle": "Yoga Hoa Sen is a Tantric yoga system from India that promotes spirituality and holistic health",
+		"globe_title": "Yoga Hoa Sen",
+		"main_button_text": "View our Schedules",
+		"secondary_button_text": "Contact Us"
+	},
+	"hero_animated": {
+		"secondary_button_text": "Check out the science"
+	},
+	"header": {
+		"features": "What is Yoga?",
+		"pricing": "Schedules",
+		"blog": "Blog",
+		"contact": "Contacts",
+		"primary_button_text": "Schedule",
+		"secondary_button_text": "Contact"
+	},
+	"features": {
+		"learn_more": "Learn more",
+		"title": "",
+		"subtitle": "Learn Indian Tantra Yoga",
+		"description": "Yoga Hoa Sen offers tantra yoga.",
+		"astro": "Yoga promotes holistic health.",
+		"alpine": "Vegetarian diet.",
+		"tailwind": "Social Service.",
+		"localization": "Disaster Relief!",
+		"light_dark_mode": "Asanas",
+		"giscus": "Neditation",
+		"decapcms": "Fasting Camp",
+		"rss": "Devotional Songs",
+		"articlegenerator": "Yogic Treatments"
+	},
+	"faq": {
+		"title": "Frequently Asked Questions",
+		"1": "What is Tantra Yoga?"
+	},
+	"newsletter": {
+		"title": "Subscribe to our newsletter",
+		"subtitle": "Get notified for all updates",
+		"input_placeholder": "Enter your email",
+		"button_text": "Subscribe",
+		"privacy": "We care about the protection of your data. Read our",
+		"privacy_link": "Privacy Policy."
+	},
+	"blog": {
+		"prev": "Prev",
+		"next": "Next"
+	}
+}
